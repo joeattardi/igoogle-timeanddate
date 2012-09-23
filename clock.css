@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#clockBody, #settings {
+    width: 280px;
+    padding: 10px;    
+    background: url('clockBody.jpg') top left repeat-x #201F1F;
+}
+
+#clockScreen {
+    background: url('clockBackground-plain.jpg') top left repeat-x #A5CDE4;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 1px solid #E0E0E0;
+    width: 270px;
+}
+
+#clock {
+    background: url('clockBackground.jpg') top left repeat-x #A5CDE4;
+}
+
+#clock #time {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 36pt;
+    text-align: center;    
+    color: #246083; 
+    padding: 0;
+}
+
+#clock #time span {
+    padding: 0;
+}
+
+#clock #greeting {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    text-align: center;    
+    color: #246083;  
+    padding: 0;
+}
+
+#clock #date {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;    
+    color: #246083;    
+    padding-bottom: 5px;
+}
+
+
+
+#clock #separator {
+    font-weight: normal;
+}
